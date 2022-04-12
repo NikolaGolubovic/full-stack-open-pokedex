@@ -11,3 +11,5 @@ workflow - je ukupni proces, sve komande, koje okidaju automatske taskove kao st
 Workflow ima job-ove, jobovi imaju step-sove.
 
 svaki workflow mora da ima bar jedan job.
+
+The uses keyword tells the workflow to run a specific action. An action is a reusable piece of code, like a function.
