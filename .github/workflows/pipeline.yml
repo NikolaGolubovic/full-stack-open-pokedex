@@ -21,4 +21,6 @@ jobs:
         run: npm run build
       - name: test
         run: npm run test
+      - name: Run akhileshns/heroku-deploy
+        run: ${{secrets.HEROKU_API_KEY}}
       - uses: actions/checkout@v2
